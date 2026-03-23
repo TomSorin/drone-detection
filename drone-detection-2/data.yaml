@@ -1,0 +1,13 @@
+names:
+- drone
+- not-drone
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: drone-detection-pq8sj
+  url: https://universe.roboflow.com/dronenotdrone/drone-detection-pq8sj/dataset/2
+  version: 2
+  workspace: dronenotdrone
+test: ../test/images
+train: ../train/images
+val: ../valid/images
